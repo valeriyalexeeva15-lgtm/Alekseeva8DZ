@@ -23,16 +23,22 @@ namespace Alekseeva8DZ
             //car2.PrintInfo();
 
             //2
-            User user = new User();
-            user.Name = "Валерия Алексеева";
-            user.Email = "lera.alekseeva.4240@mail.ru";
-            user.IsActive = true;
+            //User user = new User();
+            //user.Name = "Валерия Алексеева";
+            //user.Email = "lera.alekseeva.4240@mail.ru";
+            //user.IsActive = true;
 
-            Console.WriteLine("Информация о пользователе:");
-            Console.WriteLine($"Имя: {user.Name}");
-            Console.WriteLine($"Email: {user.Email}");
-            Console.WriteLine($"Активен: {user.IsActive}");
-        }
+            //Console.WriteLine("Информация о пользователе:");
+            //Console.WriteLine($"Имя: {user.Name}");
+            //Console.WriteLine($"Email: {user.Email}");
+            //Console.WriteLine($"Активен: {user.IsActive}");
+
+            //3
+            ValueChecker checker = new ValueChecker();
+
+            checker.CheckType(5);
+            checker.CheckType("Hello");
+        }   
     }
 }
 
