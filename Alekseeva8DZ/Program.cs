@@ -1,8 +1,8 @@
 ﻿using MyApp.Models;
 
-namespace Alekseeva8DZ
+namespace MyProject
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -34,10 +34,17 @@ namespace Alekseeva8DZ
             //Console.WriteLine($"Активен: {user.IsActive}");
 
             //3
-            ValueChecker checker = new ValueChecker();
+            //ValueChecker checker = new ValueChecker();
 
-            checker.CheckType(5);
-            checker.CheckType("Hello");
+            //checker.CheckType(5);
+            //checker.CheckType("Hello");
+
+
+            //4
+             global::System.Console.WriteLine("Hello world!");
+
+             System mySystem = new System();
+             mySystem.Print();
         }   
     }
 }
